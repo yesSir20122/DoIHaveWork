@@ -5,14 +5,14 @@ ToDoList{
   margin:0;
   padding:0;
 }
-ul li{
+TodoList li{
   cursor: pointer;
   position: relative;
 }
-ul li:hover {
+TodoList li:hover {
   background: #ddd;
 }
-ul li.checked {
+TodoList li.checked {
   background: #888;
   color: #fff;
   text-decoration: line-through;
